@@ -2,7 +2,7 @@
 Designed to change the A records in Network Solutions & GoDaddy Domain names, when the IP on the server changes. Designed to run on a single shell script, the provider update scripts can be run manually:
  - casperjs networksolutions.js/godaddy.js --ip="YOUR NEW IP"
  
-In crontab, put the following line in, replacing your path location of the files:
+OR In crontab, put the following line in, replacing your path location of the files:
  - */5     *       *       *       *       /root/Scripts/AutoDNS/monitorIP.sh
 
 Uses a simple bash script to check against ip.txt for changes in the IP; if there's a change, run the casper script with the passed IP to update your DNS A records. Place these files on the server and run a cron job. 
