@@ -14,3 +14,5 @@ Uses a simple bash script to check against ip.txt for changes in the IP; if ther
    - CasperJS
    - Curl
    - Cron
+
+<a href="https://wwww.healthhelpchat.com/suicide-hotlines/" title="Suicide prevention hotline">Suicide Hotlines</a>
